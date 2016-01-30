@@ -11,14 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.test.gridle.AddNote"
     tools:showIn="@layout/activity_add_note">
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/notes_title"
-    android:hint="@string/title"
-    android:textColor="#000"/>
-
-    <EditText
+     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/note"
@@ -26,4 +19,12 @@
         android:layout_below="@+id/notes_title"
         android:layout_marginTop="16dp"
         android:textColor="@color/black_overlay"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notes_title"
+    android:hint="@string/title"
+    android:textColor="#000"/>
+
+
 </RelativeLayout>
