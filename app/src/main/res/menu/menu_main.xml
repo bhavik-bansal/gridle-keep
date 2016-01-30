@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.gridle.MainActivity">
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_notes"
+        android:title="@string/action_notes"
+        app:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item android:id="@+id/action_archive"
+            android:title="@string/action_archive"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>
